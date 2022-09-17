@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ahorcado</title>
+
+</head>
+<body>
+	<label>Ingrese una letra:</label>
+	<input type="text" id="letra">
+
+	<button id="leer" onclick="leerLetra()">Leer letra</button>
+	<button id="obtener" onclick="obtenerPalabra()">Obtener palabra</button>
+	<button  onclick="reiniciar()">Reiniciar</button>
+	<button id="pista" onclick="obtenerPista()">Obtener Pista</button>
+	<br><br>
+	<div id="vacios"> Pulsa en obtener palabra para empezar a jugar </div>
+
+	<div id="intentos">Intentos disponibles: 6</div>
+
+	<div id="usadas">Letras Usadas: </div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
